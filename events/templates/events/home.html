@@ -1,0 +1,27 @@
+{% extends 'events/base.html' %}
+
+{% block content %}
+
+<style>
+    td{
+        padding: 18px;
+    }
+    tr > .month{
+        font-size: 30px;
+        position: relative;
+        line-height: 70px;
+    }
+</style>
+
+
+<center>
+    <div style="
+    margin-top: 85px;">
+
+    {{cal|safe}}
+</div>
+</center>
+
+
+
+{% endblock %}
